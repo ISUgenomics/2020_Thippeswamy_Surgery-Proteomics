@@ -5,7 +5,7 @@
 ###  KA-NoSurgery vs. KA-NoSurgery
 
 
-
+<font size="2">
 | Uniprot ID | Gene Symbol | Protein names | Organism|Gene names|KEGG-ID (mmu)|Color|FC|log2(FC)|P value|neg LOG10(p)|
 |----------|:-------------:|:------:|:-------------:|:------:|:-------------:|:------:|:-------------:|:------:|:-------------:|:------:|
 |P35505|FAAA_MOUSE|Fumarylacetoacetase (FAA) (EC 3.7.1.2) (Beta-diketonase) (Fumarylacetoacetate hydrolase)|Mus musculus (Mouse)|Fah|14085|green|1.6933|0.75982|6.80E-06|5.1676|
@@ -88,3 +88,4 @@
 |P35564|CALX_MOUSE|Calnexin|Mus musculus (Mouse)|Canx|12330|green|1.1212|0.16502|0.009241|2.0343|
 |Q60864|STIP1_MOUSE|Stress-induced-phosphoprotein 1 (STI1) (mSTI1) (Hsc70/Hsp90-organizing protein) (Hop)|Mus musculus (Mouse)|Stip1|20867|red|0.91156|-0.1336|0.0093153|2.0308|
 |Q61838|PZP_MOUSE|Pregnancy zone protein (Alpha-2-macroglobulin) (Alpha-2-M) [Cleaved into: Alpha-2-macroglobulin 165 kDa subunit; Alpha-2-macroglobulin 35 kDa subunit]|Mus musculus (Mouse)|Pzp A2m||green|3.7671|1.9135|0.0093821|2.0277|
+</font> 
