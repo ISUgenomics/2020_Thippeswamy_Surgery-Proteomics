@@ -20,7 +20,7 @@ Fold change is estimated based on the assumption that `KA-NoSurgery` condition i
 
 * ### KA-Surgery vs. Vehicle-Surgery
 
-Fold change is estimated based on the assumption that `KA-Surgery` condition is the control. The table is also accessible from [here](FoldChange/KA_Surgery.va.Vehicle_Surgery.md).
+Fold change is estimated based on the assumption that `KA-Surgery` condition is the control. The table is also accessible from [here](FoldChange/KA_Surgery.vs.Vehicle_Surgery.md).
 
 ![KA-Surgery-Vehicle-Surgery](assets/KA-Surgery-Vehicle-Surgery.png)
 ![KA-Surgery-Vehicle-Surgery](assets/KA-Surgery-Vehicle-Surgery.2.png)
@@ -32,3 +32,44 @@ Fold change is estimated based on the assumption that `Vehicle-Surgery` conditio
 ![Vehicle-NoSurgery-Vehicle-Surgery](assets/Vehicle-nosergery.vs.surgery.png)
 ![Vehicle-NoSurgery-Vehicle-Surgery](assets/Vehicle-nosergery.vs.surgery.2.png)
 ![Vehicle-NoSurgery-Vehicle-Surgery](assets/Vehicle-nosergery.vs.surgery.3.png)
+
+
+## Heat Map
+
+Heat map is generated for significant proteins (P < 0.05). No clustering have been performed among samples.
+
+* ###  KA-NoSurgery vs. KA-Surgery
+
+![Heatmap](assets/heatmap-KA-NoSurgery-KA-Surgery.png)
+
+* ### KA-NoSurgery vs. Vehicle-NoSrugery
+
+![Heatmap](assets/heatmap-KA-NoSurgery-Vehicle-NoSurgery.png)
+
+* ### KA-Surgery vs. Vehicle-Surgery
+
+![Heatmap](assets/heatmap-KA-Surgery-Vehicle-Surgery.png)
+
+* ### Vehicle-Surgery vs. Vehicle-NoSurgery
+
+![Heatmap](assets/heatmap-Vehicle-Surgery-Vehicle-NoSurgery.png)
+
+
+## Volcano Plot
+In the following volcano plots, statistical significance is plotted agains the fold change. Proteins that are both significant (p < 0.05, negLOG10 (p) > 2) and their expression level has changed more than 2 folds ( log2(fc) > 2 for upper expressed and log2(fc) < 2 for lower expressed proteins ) are shown in pink.
+
+* ###  KA-NoSurgery vs. KA-Surgery
+
+![volcano](assets/volcano_KA_NoS-KA-S.png)
+
+* ### KA-NoSurgery vs. Vehicle-NoSrugery
+
+![volcano](assets/volcano_KA_NoS-Vehicle-NoS.png)
+
+* ### KA-Surgery vs. Vehicle-Surgery
+
+![volcano](assets/volcano_KA_S-Vehicle-S.png)
+
+* ### Vehicle-Surgery vs. Vehicle-NoSurgery
+
+![volcano](assets/volcano_Vehicle_NoS-Vehicle-S.png)
