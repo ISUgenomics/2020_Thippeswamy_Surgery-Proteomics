@@ -106,7 +106,17 @@ In the following volcano plots, statistical significance is plotted agains the f
 
 ## Kegg-Pathways
 
+### KA-Surgery vs. Vehicle-Surgery
 
+The first few rows of the pathways table look like this:
+
+|General pathway| Detailed pathway|
+|:--|:--|
+|mmu03010 Ribosome - Mus musculus (mouse) (8)|mmu:19988 Rpl6; ribosomal protein L6|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:20102 Rps4x; ribosomal protein S4, X-linked|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26451 Rpl27a; ribosomal protein L27A|
+
+Compleate table can be found [here](pathways/KA-Surgery.vs.Vehicle-NoSurgery.md)
 
 ## ANOVA
 
