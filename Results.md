@@ -2,7 +2,8 @@
 
 ## Normalization
 
-Effect of normalization on the abundance distribution has been shown in the following figures. data is normalized 
+Considering the vast dynamic range of biosample features, in this case  
+Effect of normalization on the abundance distribution has been shown in the following figures. data is normalized using the quantile normalization method and log transformed using Generalized log transformation function (glog) function in R.   
 
 * ###  KA-NoSurgery vs. KA-Surgery
 
@@ -10,7 +11,7 @@ Effect of normalization on the abundance distribution has been shown in the foll
 
 ![snorm](assets/snorm_KA-NoS-KA-S.png)
 
-* ### KA-NoSurgery vs. Vehicle-NoSrugery
+* ### KA-NoSurgery vs. Vehicle-NoSurgery
 
 ![norm](assets/norm_KA-NoS-Vehicle-NoS.png)
 
@@ -32,7 +33,7 @@ Effect of normalization on the abundance distribution has been shown in the foll
 
 The following tables present the fold change information about the significant proteins (p < 0.01). Up or down regulation is addressed with `green` and `red` for up and down regulated expression level in the `color` columns.
 
-* ###  KA-NoSurgery vs. KA-NoSurgery
+* ###  KA-NoSurgery vs. KA-Surgery
 
 
 Fold change is estimated based on the assumption that `KA-NoSurgery` condition is the control. The table is also accessible from [here](FoldChange/KA_NoSurgery.vs.Ka_Surgery.md).
@@ -40,7 +41,7 @@ Fold change is estimated based on the assumption that `KA-NoSurgery` condition i
 ![KA-Surgery-KA-NoSurgery](assets/FC-KA-noSurgery-KA-Surgery.png)
 ![KA-Surgery-KA-NoSurgery](assets/FC-KA-noSurgery-KA-Surgery.2.png)
 
-* ### KA-NoSurgery vs. Vehicle-NoSrugery
+* ### KA-NoSurgery vs. Vehicle-NoSurgery
 
 Fold change is estimated based on the assumption that `KA-NoSurgery` condition is the control. The table is also accessible from [here](FoldChange/KA_NoSurgery.vs.Vehicle_NoSurgery.md).
 
@@ -70,9 +71,9 @@ Heat map is generated for significant proteins (P < 0.05). No clustering have be
 
 ![Heatmap](assets/heatmap-KA-NoSurgery-KA-Surgery.png)
 
-* ### KA-NoSurgery vs. Vehicle-NoSrugery
+* ### KA-NoSurgery vs. Vehicle-NoSurgery
 
-![Heatmap](assets/heatmap-KA-NoSurgery-Vehicle-NoSurgery.png)
+![Heatmap](assets/heatmap-KA_NoSurgery-Vehicle-NoSurgery.png)
 
 * ### KA-Surgery vs. Vehicle-Surgery
 
@@ -90,7 +91,7 @@ In the following volcano plots, statistical significance is plotted agains the f
 
 ![volcano](assets/volcano_KA-NoS-KA-S.png)
 
-* ### KA-NoSurgery vs. Vehicle-NoSrugery
+* ### KA-NoSurgery vs. Vehicle-NoSurgery
 
 ![volcano](assets/volcano_KA-NoS-Vehicle-NoS.png)
 
@@ -103,4 +104,18 @@ In the following volcano plots, statistical significance is plotted agains the f
 ![volcano](assets/volcano_Vehicle-NoS-Vehicle-S.png)
 
 
-##  
+## Kegg-Pathways
+
+
+
+## ANOVA
+
+For multi-group analysis, one-way Analysis of Variance (ANOVA) has been performed.  As ANOVA only tells whether the overall comparison is significant or not and it does not give any infromation on which groups or features are different. Fisher’s least significant difference method (Fisher’s LSD) was used to identify which two levels are different.
+
+### Heatmap
+
+![Heatmap](assets/heatmap-anova.png)
+
+### Abundance distribution
+
+![Abundances](assets/abundances-anova.png)
