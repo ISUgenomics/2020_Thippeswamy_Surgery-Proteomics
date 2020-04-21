@@ -1,4 +1,5 @@
 # Pathways
+
 |General pathway| Detailed pathway|
 |:--|:--|
 |mmu03010 Ribosome - Mus musculus (mouse) (8)|mmu:19988 Rpl6; ribosomal protein L6|

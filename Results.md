@@ -116,7 +116,56 @@ The first few rows of the pathways table look like this:
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:20102 Rps4x; ribosomal protein S4, X-linked|
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26451 Rpl27a; ribosomal protein L27A|
 
-Compleate table can be found [here](pathways/KA-Surgery.vs.Vehicle-NoSurgery.md)
+Compleate table can be found [here](Pathways/KA-Surgery.vs.Vehicle-NoSurgery.md)
+
+### Vehicle-Surgery vs. vehicle-NoSurgery
+
+The first few rows of the pathways table look like this:
+
+|Pathways | Detailed pathways|
+|:--|:--|
+| mmu01100 Metabolic pathways - Mus musculus (mouse) (14)|mmu:110078 Pygb; brain glycogen phosphorylase|
+|      |mmu:11758 Prdx6; peroxiredoxin 6|
+|      |mmu:12857 Cox4i1; cytochrome c oxidase subunit 4I1|
+|      |mmu:14085 Fah; fumarylacetoacetate hydrolase|
+|      |mmu:14651 Hagh; hydroxyacyl glutathione hydrolase|
+|      |mmu:14866 Gstm5; glutathione S-transferase, mu 5|
+|      |mmu:17161 Maoa; monoamine oxidase A|
+
+Compleate table can be found [here](Pathways/Vehicle-Surgery.vs.Vehicle-NoSurgery.md)
+
+
+### KA-NoSurgery vs. Vehicle-NoSurgery
+
+The first few rows of the pathways table look like this:
+
+|Pathways| detailed pathways|
+|:--|:--|
+|mmu01100 Metabolic pathways - Mus musculus (mouse) (7)|mmu:110821 Pcca; propionyl-Coenzyme A carboxylase, alpha polypeptide|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:14645 Glul; glutamate-ammonia ligase (glutamine synthetase)|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:14866 Gstm5; glutathione S-transferase, mu 5|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:228550 Itpka; inositol 1,4,5-trisphosphate 3-kinase A|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:56421 Pfkp; phosphofructokinase, platelet|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:67003 Uqcrc2; ubiquinol cytochrome c reductase core protein 2|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:67130 Ndufa6; NADH:ubiquinone oxidoreductase subunit A6|
+
+Complete table can be found [here](Pathways/KA-NoSurgery.vs.Vehicle-NoSurgery.md)
+
+
+### KA-Surgery vs. KA-NoSurgery
+
+The first few rows of the pathways table look like this:
+
+|General pathway| Detailed pathway|
+|:--|:--|
+|mmu03010 Ribosome - Mus musculus (mouse) (8)|mmu:19988 Rpl6; ribosomal protein L6|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:20102 Rps4x; ribosomal protein S4, X-linked|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26451 Rpl27a; ribosomal protein L27A|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26961 Rpl8; ribosomal protein L8|
+|[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:66489 Rpl35; ribosomal protein L35|
+
+Complete table can be found [here](Pathways/KA-Surgery.vs.KA-NoSurgery.md)
+
 
 ## ANOVA
 
