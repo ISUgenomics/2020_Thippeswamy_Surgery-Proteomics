@@ -116,7 +116,7 @@ The first few rows of the pathways table look like this:
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:20102 Rps4x; ribosomal protein S4, X-linked|
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26451 Rpl27a; ribosomal protein L27A|
 
-Compleate table can be found [here](Pathways/KA-Surgery.vs.Vehicle-NoSurgery.md)
+Complete table can be found [here](Pathways/KA-Surgery.vs.Vehicle-Surgery.md)
 
 ### Vehicle-Surgery vs. vehicle-NoSurgery
 
@@ -164,7 +164,7 @@ The first few rows of the pathways table look like this:
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:26961 Rpl8; ribosomal protein L8|
 |[  ](https://www.genome.jp/dbget-bin/www_bget?mmu)|mmu:66489 Rpl35; ribosomal protein L35|
 
-Complete table can be found [here](Pathways/KA-Surgery.vs.KA-NoSurgery.md)
+Complete table can be found [here](Pathways/KA-NoSurgery.vs.KA-Surgery.md)
 
 
 ## ANOVA
