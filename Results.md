@@ -33,7 +33,27 @@ Effect of normalization on the abundance distribution has been shown in the foll
 
 The following tables present the fold change information about the significant proteins (p < 0.01). Up or down regulation is addressed with `green` and `red` for up and down regulated expression level in the `color` columns.
 
-* ###  KA-NoSurgery vs. KA-Surgery
+### Fold change stats
+#### KA-Surgery vs. KA-NoSurgery
+
+* P < 0.01
+
+ | Treatment group | Down regulated | Up-regulated | Total significant | % significant of all proteins identified |
+ |:---|:---|:---|:---|:---|
+ |KA-Surgery vs. KA-NoSurgery| 47 | 35 | 82 | 5.4% |
+ |KA-NoSurgery vs. Vehicle-NoSurgery| 16  | 11 | 27 | 1.8% |
+ |KA-Surgery vs. Vehicle-Surgery| 32 | 23 | 55 | 3.6% |
+ |Vehicle-Surgery vs Vehicle-NoSurgery | 59 | 44 | 103 | 6.8%|
+
+
+ * P < 0.05
+
+ | Treatment group | Down regulated | Up-regulated | Total significant | % significant of all proteins identified | 
+ |:---|:---|:---|:---|:---|
+ |KA-Surgery vs KA-NoSurgery| 156 | 120 | 276 | 18%|
+ |KA-NoSurgery vs. Vehicle-NoSurgery| 59 | 51 | 110| 7.3% |
+ |KA-Surgery vs. Vehicle-Surgery| 113 | 80 | 193 | 12.8% |
+ |Vehicle-Surgery vs Vehicle-NoSurgery | 170 | 103 | 273 | 18.1% |
 
 
 Fold change is estimated based on the assumption that `KA-NoSurgery` condition is the control. The table is also accessible from [here](FoldChange/KA_NoSurgery.vs.Ka_Surgery.md).
